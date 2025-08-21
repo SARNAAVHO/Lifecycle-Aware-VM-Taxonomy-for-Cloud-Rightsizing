@@ -21,7 +21,7 @@ We combine **unsupervised clustering** (Gaussian Mixture Models) with **supervis
 ---
 
 ## 🛠️ Tech Stack
-- **Programming Language**: Python 3.x  
+- **Programming Language**: Python
 - **Data Analysis**: Pandas, NumPy  
 - **Machine Learning**: Scikit-Learn, XGBoost, imbalanced-learn (SMOTE)  
 - **Clustering**: Gaussian Mixture Models (Scikit-Learn)  
@@ -31,9 +31,10 @@ We combine **unsupervised clustering** (Gaussian Mixture Models) with **supervis
 ---
 
 ## 📂 Dataset
-- ~50,000 VMs with aggregate CPU metrics and metadata.  
+- Sourced from the **Microsoft Azure 2019 public VM trace dataset**.  
+- Contains ~50,000 VMs with aggregate CPU metrics and metadata.  
 - Features include: average CPU, 95th percentile CPU, max CPU, VM lifetime, vCPU/memory buckets.  
-- Dataset used in experiments is not publicly released (provider confidential). Synthetic version may be added for demonstration.  
+- Used to study VM inefficiencies, lifecycle patterns, and prediction of short-lived workloads.  
 
 ---
 
